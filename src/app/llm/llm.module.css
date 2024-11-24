@@ -1,0 +1,80 @@
+.llmPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  background-color: #f9f9f9; /* Light background for contrast */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333; /* Darker text for better readability */
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 16px;
+  color: #555; /* Medium gray for a softer look */
+  margin-bottom: 20px;
+  text-align: center; /* Centering the description */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  transition: border-color 0.3s; /* Smooth transition for the border color */
+}
+
+.input:focus {
+  border-color: #0070f3; /* Change border color on focus */
+  outline: none; /* Remove default outline */
+}
+
+.submitButton {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0070f3; /* Primary button color */
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.submitButton:hover {
+  background-color: #005bb5; /* Darker shade on hover */
+}
+
+.response {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #eaeaea;
+  border-radius: 5px;
+  background-color: #fff; /* White background for the response box */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+h3 {
+  margin: 0 0 10px;
+  color: #333; /* Darker text for response header */
+}
+
+p {
+  margin: 0;
+  color: #555; /* Medium gray for response text */
+}

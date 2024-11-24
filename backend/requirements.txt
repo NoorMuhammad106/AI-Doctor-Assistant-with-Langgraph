@@ -1,0 +1,7 @@
+fastapi==0.95.2
+uvicorn==0.23.2
+sqlalchemy==2.0.16
+psycopg2-binary==2.9.6  # PostgreSQL adapter for Python
+bcrypt==4.0.1            # For hashing passwords
+pydantic==1.10.7         # For data validation (comes with FastAPI, but can be specified)
+python-dotenv==1.0.0     # Optional, for environment variable management

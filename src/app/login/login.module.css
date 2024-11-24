@@ -1,0 +1,80 @@
+/* login.module.css */
+
+.loginPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #ffffff; /* Dark background for a professional look */
+    font-family: 'Arial', sans-serif; /* Clean font */
+}
+
+.formContainer {
+    background: rgba(0, 0, 0, 0.2); /* Transparent white background */
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Light border for visibility */
+    border-radius: 15px; /* More rounded corners for a softer look */
+    padding: 40px;
+    box-shadow: 0 15px 70px rgba(0, 0, 0, 0.4); /* Enhanced shadow for depth */
+    width: 400px; /* Set a fixed width for the form container */
+    transition: transform 0.07s; /* Smooth transition for hover effect */
+    backdrop-filter: blur(10px); /* Add a blur effect to the background */
+}
+
+.formContainer:hover {
+    transform: translateY(-5px); /* Slight upward movement on hover */
+}
+
+.title {
+    color: #000000; /* White color for title */
+    text-align: center;
+    margin-bottom: 20px; /* Spacing between title and form */
+    font-size: 26px; /* Increased title font size */
+    font-weight: bold; /* Bold title for emphasis */
+}
+
+.error {
+    color: red; /* Red color for error messages */
+    text-align: center; /* Center the error message */
+    margin-bottom: 10px; /* Spacing below the error message */
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column; /* Stack inputs vertically */
+}
+
+.inputField {
+    border: 1px solid rgba(5, 5, 5, 0.5); /* Light gray border */
+    border-radius: 5px;
+    padding: 12px; /* More padding for better usability */
+    margin-bottom: 20px; /* Spacing between inputs */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+    font-size: 16px; /* Slightly larger font for better readability */
+    color: #fff; /* Text color */
+    background-color: rgb(255, 255, 255); /* Light transparent background for input fields */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.inputField:focus {
+    border-color: #ffff; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+    background-color: rgba(255, 255, 255, 0.3); /* Slightly darker background on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Blue glow effect on focus */
+}
+
+.loginButton {
+    background-color: #ffffff; /* Transparent green button */
+    color: #000000; /* White text */
+    border: none; /* Remove border */
+    border-radius: 5px;
+    padding: 12px; /* Increased padding for better usability */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition for background color and scaling */
+    font-size: 16px; /* Font size */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for button */
+}
+
+.loginButton:hover {
+    background-color: #a5a5a5; /* Darken button on hover */
+    transform: scale(1.05); /* Slightly scale button on hover for effect */
+}

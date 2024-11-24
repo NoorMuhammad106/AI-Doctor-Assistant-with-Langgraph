@@ -1,0 +1,102 @@
+/* Base styles */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff; /* Dark background */
+  color: #000000; /* White text */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the contents */
+  justify-content: center;
+  min-height: 100vh; /* Full height for vertical centering */
+  padding: 2rem;
+  text-align: center; /* Center text */
+}
+
+.header {
+  font-size: 3rem; /* Larger header size */
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+/* Form styles */
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center form elements */
+  width: 100%; /* Full width */
+  max-width: 600px; /* Max width for larger screens */
+  margin: 0 auto; /* Center form horizontally */
+}
+
+.input {
+  width: 100%; /* Full width */
+  padding: 1rem; /* Larger padding */
+  border: 2px solid #0c0c0c; /* White border */
+  border-radius: 50px; /* Rounded corners */
+  font-size: 1.2rem; /* Larger font size */
+  color: #000; /* Black text */
+  background-color: rgba(145, 141, 141, 0.1); /* Transparent background */
+  transition: background 0.3s;
+  margin-bottom: 1.5rem; /* Space between input and button */
+}
+
+.input:focus {
+  background-color: rgba(44, 43, 43, 0.767); /* Darker on focus */
+  outline: none; /* Remove outline */
+}
+
+.submit-button {
+  padding: 1rem 2rem; /* Button padding */
+  background-color:  rgba(88, 85, 85, 0.767); /* White background */
+  color: #000000; /* Black text */
+  border: none; /* No border */
+  border-radius: 50px; /* Rounded corners */
+  font-size: 1.2rem; /* Button text size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s, color 0.3s; /* Transition effects */
+}
+
+.submit-button:hover {
+  background-color: rgba(0, 0, 0, 0.1); /* Light background on hover */
+  color: #000000; /* Change text color on hover */
+}
+
+/* Loading and error messages */
+.loading, .error {
+  margin: 1rem 0; /* Space between messages */
+  font-size: 1.2rem; /* Message text size */
+}
+.chat-history {
+  margin-top: 20px; /* Space above chat history */
+  max-height: 400px; /* Max height for chat history */
+  /* Scroll if content overflows */
+}
+
+.chat-entry {
+  margin-bottom: 15px; /* Space between chat entries */
+}
+
+.patient-question {
+  color: #ffffff; /* Color for patient questions */
+  font-weight: bold;
+  font-size: 25px; /* Bold text for emphasis */
+  margin: 0; /* Remove margin */
+  padding: 5px 10px; /* Padding for better spacing */
+  background-color: rgb(15, 15, 15); /* Slight background for questions */
+  border-radius: 8px; /* Rounded corners for question background */
+}
+
+.doctor-response {
+  color: #0f0f0fd2; /* Color for doctor responses */
+  margin: 0; /* Remove margin */
+  padding: 5px 10px; /* Padding for better spacing */
+  background-color: rgba(255, 255, 255, 0.986); /* Slightly different background for responses */
+  border-radius: 8px; /* Rounded corners for response background */
+  white-space: pre-wrap; /* Maintain line breaks and whitespace */
+  text-align:justify;
+}
+

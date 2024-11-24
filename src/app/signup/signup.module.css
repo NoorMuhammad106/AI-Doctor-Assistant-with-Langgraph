@@ -1,0 +1,109 @@
+.signupPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full height to center the form */
+    background-color: #ffffff; /* Dark transparent background */
+    padding: 2rem;
+}
+
+.formContainer {
+    background-color: rgba(24, 23, 23, 0.2); /* Slightly transparent white background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* More pronounced shadow */
+    padding: 2rem;
+    width: 100%;
+    max-width: 400px; /* Max width for form */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.formContainer:hover {
+    transform: translateY(-5px); /* Slight upward movement on hover */
+}
+
+.title {
+    font-size: 2rem; /* Main heading size */
+    color: #000; /* Black text color */
+    margin-bottom: 0.5rem; /* Space below heading */
+    text-align: center; /* Center heading */
+}
+
+.description {
+    font-size: 1rem; /* Description text size */
+    color: #000000; /* Dark grey for better readability */
+    margin-bottom: 1.5rem; /* Space below description */
+    text-align: center; /* Center description */
+}
+
+.signupForm {
+    display: flex;
+    flex-direction: column; /* Vertical alignment */
+}
+
+.inputField {
+    padding: 0.8rem; /* Padding for input fields */
+    margin-bottom: 1rem; /* Space between fields */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1rem; /* Font size for input */
+    transition: border-color 0.3s; /* Transition for border color */
+    color: #000000; /* Dark text color for input */
+    background-color:  rgb(250, 250, 250); /* Light transparent background for input fields */
+}
+
+.inputField:focus {
+    border-color: #aca7a7; /* Focused border color */
+    outline: none; /* Remove default outline */
+    background-color: #ffffff; /* Solid background on focus */
+}
+
+.checkboxContainer {
+    display: flex;
+    align-items: center; /* Align checkbox and label */
+    margin-bottom: 1rem; /* Space below checkbox */
+}
+
+.checkbox {
+    margin-right: 0.5rem; /* Space between checkbox and label */
+}
+
+.checkboxLabel {
+    font-size: 0.9rem; /* Font size for label */
+    color: #000000; /* Dark text color */
+}
+
+.signupButton {
+    padding: 0.8rem;
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    background-color:#ffffff; /* Black button color */
+    color: #000000; /* White text */
+    font-size: 1rem; /* Font size for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.2s; /* Transition for background color and scaling */
+}
+
+.signupButton:hover {
+    background-color: #968c8c; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly scale button on hover */
+}
+
+.message {
+    color: #bbadad; /* Black color for messages */
+    text-align: center; /* Center the message */
+    margin-top: 10px; /* Spacing above the message */
+}
+
+.alternative {
+    text-align: center; /* Center alternative text */
+    margin-top: 1.5rem; /* Space above */
+}
+
+.link {
+    color: #000000; /* Black link color */
+    text-decoration: none; /* No underline */
+}
+
+.link:hover {
+    text-decoration: underline; /* Underline on hover */
+}

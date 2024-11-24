@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff; /* Dark background */
+    color: #000000; /* White text */
+}
+
+.home-page {
+    width: 100%;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 30px;
+    
+   
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0 1.5rem;
+}
+
+.navbar a {
+    color: #747474; /* White text color for links */
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background 0.3s, color 0.3s;
+    border-radius: 5px;
+}
+
+.navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Soft white hover effect */
+    color: #000000;
+}
+
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    color: #000000; /* Text color in hero section */
+    text-align: center;
+    border-radius: 8px;
+   
+}
+
+.hero-content h1 {
+    font-size: 4rem; /* Main heading size */
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.hero-content p {
+    font-size: 1.5rem; /* Size of paragraph text */
+    margin-bottom: 2rem;
+}
+
+/* CTA Button */
+.cta-button {
+    padding: 1rem 2rem;
+    background-color: #928282; /* Transparent button */
+    color: #000000;
+    border: 2px solid #0f0f0f; /* White border */
+    border-radius: 50px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Light transparent white on hover */
+    color: #000000; /* Black text on hover */
+}
+
+/* Features Section */
+.features-section {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: #ffffff; /* Dark grey background */
+    color: #ffffff;
+}
+
+.features-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.feature {
+    background: #333333; /* Slightly lighter grey for feature boxes */
+    padding: 2rem;
+    border-radius: 10px;
+    transition: transform 0.3s, background 0.3s;
+}
+
+.feature:hover {
+    transform: translateY(-5px);
+    background: #444444; /* Slight change on hover */
+}
+
+.feature h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.feature p {
+    font-size: 1.1rem;
+}
+
+/* CTA Section */
+.cta-section {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: #ffffff;
+    color: #000000; /* Black text */
+    border-radius: 8px;
+}
+
+.cta-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.cta-section p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.cta-section .cta-button {
+    background-color: transparent;
+    color: #000000; /* Black button text */
+    border: 2px solid #000000; /* Black border */
+}
+
+.cta-section .cta-button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+}
